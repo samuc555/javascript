@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        h1 {
+            font-family: arial;
+        }
+        
+        button {
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow:   5px 5px 5px rgb(156, 156, 156);
+        }
+
+        body {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 700px;
+        }
+
+        main{
+            border: 4px solid rgb(193, 193, 193);
+            padding: 50px;
+            border-radius: 40px;
+            box-shadow: 5px 5px 5px gray;
+            background: linear-gradient(270deg, #453da2 0%, rgba(130, 80, 136, 0.71) 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Trabalhando com dados</h1>
+        <button onclick="botaonome()">Quero saber seu nome</button>
+    </main>
+    <script>
+        function botaonome() {
+            var nome2 = prompt('Qual é o seu nome?')
+            alert(` Seja bem vindo, ${nome2}! `)
+        }
+    </script>
+
+</body>
+
+</html>

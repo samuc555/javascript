@@ -1,0 +1,31 @@
+* {
+    font-family: arial;
+}
+
+body {
+    text-align: center;
+    background-color: rgb(95, 95, 227);
+}
+
+.botao {
+    padding: 10px;
+}
+
+section {
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    box-shadow: 5px 5px 7px black;
+}
+
+#trab {
+    color: white;
+}
+
+#sesi {
+    color: white;
+}
+

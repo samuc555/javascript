@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+    <style>
+        button {
+            padding: 10px;
+            border-radius: 15px;
+            box-shadow: 5px 5px 5px rgb(180, 180, 180);
+            transition: 200ms;
+        }
+        button:hover{
+            padding: 20px;
+            font-size: 15px;
+            border-radius: 25px;
+            background-color: rgb(205, 205, 205);
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 700px;
+        }
+        main{
+            text-align: center;
+            border: 3px solid lightblue;
+            border-radius: 25px;
+            padding: 30px;
+            background: linear-gradient(20deg, lightblue, rgb(135, 60, 135));
+            box-shadow: 5px 5px 5px gray;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Somador de Números</h1>
+        <button onclick="botao()">Clique aqui para somar</button>
+        <p>Clique no botão acima para somar</p>
+
+        <script>
+            function botao() {
+                var valor1 = prompt('Coloque o primeiro número para a soma.')
+                var valor2 = prompt('Coloque o segundo número para a soma.')
+                var soma = Number(valor1) + Number(valor2)
+                alert(soma)
+            }
+        </script>
+    </main>
+</body>
+
+</html>
